@@ -14,8 +14,8 @@ As notas seguem a escala de 0 a 100%, considerando o percentual de atividades co
 
 | Aula    | Atividade                                    | Auto-avaliação | Justificativa                                                                       | Data/Hora completada | Link para o registro da atividade no Git  				  |
 |---------|----------------------------------------------|----------------|-------------------------------------------------------------------------------------|----------------------|--------------------------------------------------------------------------|
-| A01.1T  | Conceito de modelos                          | 100%           | Consegui realizar a atividade sem grandes dificuldades                              | 01/11/2025 15:44     | [Ver atividade](../aula01/A_1_1_Conceito_de_modelos.pdf)                       |
-| A01.2T  | Exemplos de Modelos Gerais                   | 100%           | Consegui realizar a atividade sem grandes dificuldades                              | 03/11/2025 18:55     | [Ver atividade](../aula01/A_1_2_Exemplos_de_Modelos_Gerais.pdf)                |
+| A01.1T  | Conceito de modelos                          | 100%           | Consegui realizar a atividade sem grandes dificuldades                              | 01/11/2025 15:44     | [Ver atividade](aula01/A_1_1_Conceito_de_modelos.pdf)                       |
+| A01.2T  | Exemplos de Modelos Gerais                   | 100%           | Consegui realizar a atividade sem grandes dificuldades                              | 03/11/2025 18:55     | [Ver atividade](aula01/A_1_2_Exemplos_de_Modelos_Gerais.pdf)                |
 
 
 
