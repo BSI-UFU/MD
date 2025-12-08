@@ -19,12 +19,12 @@ Os exemplos citam, implicitamente ou por associação, vários conceitos fundame
 
 | DDD Conceito/Elemento | Aplicação no Contexto dos Casos | Fonte |
 | :--- | :--- | :--- |
-| **Contexto Delimitado** | Fundamento para a Arquitetura de Microsserviços orientada a domínio (Uber), onde o modelo é mantido consistente e unificado dentro de limites claros. |, |
-| **Arquitetura em Camadas** | A Arquitetura Hexagonal (Netflix) e a separação de responsabilidades são usadas para isolar a lógica de domínio (Domain Layer) das preocupações de infraestrutura e UI. |, |
-| **Destilação / Domínio Principal** | Foco na otimização de software empresarial (Amazon), concentrando os melhores talentos no ativo de negócio real. |, |
-| **Eventos de Domínio** | Essencial para a arquitetura orientada a eventos (iFood), permitindo que os processos assíncronos e as transformações no domínio sejam modelados de forma explícita. |, |
-| **Design Dirigido por Modelos** | A modelagem é o foco central para criar software de alta qualidade que reflita precisamente os objetivos de negócio (todos os exemplos). | |
-| **Modeladores Envolvidos / Linguagem Ubíqua** | Necessidade de comunicação eficaz e criação de uma visão compartilhada (Spotify) para que o código se torne uma expressão fiel do modelo. |,, |
+| **Contexto Delimitado** | Fundamento para a Arquitetura de Microsserviços orientada a domínio (Uber), onde o modelo é mantido consistente e unificado dentro de limites claros. |Evans, 2015 |
+| **Arquitetura em Camadas** | A Arquitetura Hexagonal (Netflix) e a separação de responsabilidades são usadas para isolar a lógica de domínio (Domain Layer) das preocupações de infraestrutura e UI. |Evans, 2015 |
+| **Destilação / Domínio Principal** | Foco na otimização de software empresarial (Amazon), concentrando os melhores talentos no ativo de negócio real. |Evans, 2015|
+| **Eventos de Domínio** | Essencial para a arquitetura orientada a eventos (iFood), permitindo que os processos assíncronos e as transformações no domínio sejam modelados de forma explícita. |Evans, 2015 |
+| **Design Dirigido por Modelos** | A modelagem é o foco central para criar software de alta qualidade que reflita precisamente os objetivos de negócio (todos os exemplos). |Evans, 2015 |
+| **Modeladores Envolvidos / Linguagem Ubíqua** | Necessidade de comunicação eficaz e criação de uma visão compartilhada (Spotify) para que o código se torne uma expressão fiel do modelo. |Evans, 2015 |
 
 ### 3. Outros Casos de Sucesso e Aplicação de DDD em Sistemas Conhecidos
 
@@ -33,3 +33,7 @@ As fontes citam outros casos de sucesso ou de aplicação de DDD, principalmente
 1.  **Statoil (Companhia petrolífera norueguesa)**: A Statoil utilizou o **Design Estratégico** para aprimorar sua arquitetura. Especificamente, a empresa aplicou o **Mapeamento de Contexto** (*Context Mapping*) para avaliar a viabilidade de adotar software *off-the-shelf* (soluções prontas, ou *buy*) em comparação com o desenvolvimento interno (*build*). Essa aplicação do DDD ajudou a organização a tomar decisões estratégicas complexas, determinando onde aplicar esforço de modelagem (Domínio Principal) e onde aceitar modelos externos (Subdomínios Genéricos).
 
 2.  **Uso de Microsserviços (Contexto Geral):** Embora o Uber já tenha sido citado, a arquitetura de Microsserviços em geral é impulsionada pela necessidade de isolar Contextos Delimitados (BCs). O DDD fornece a base conceitual para o particionamento bem-sucedido de sistemas monolíticos em serviços menores. Essa arquitetura é hoje o padrão para muitas grandes empresas de tecnologia (como **Google, Amazon, Microsoft**), e o DDD é a principal ferramenta de design utilizada nesse contexto. A especificação de Domain-Driven Design é reconhecida como um **"conjunto de ferramentas"** que suporta arquiteturas modernas, como a de Microsserviços e Sistemas Orientados a Eventos.
+
+### REFERÊNCIAS
+
+> EVANS, Eric. **Domain-Driven Design Reference - Definitions and Pattern Summaries.** Domain Language, Inc, 2015. 
