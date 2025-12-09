@@ -20,9 +20,6 @@ Este é o caso mais comum de falha. Uma equipe decide aplicar DDD em um sistema 
     * **Transaction Script / Smart UI:** A solução foi remover as camadas táticas do DDD. A equipe migrou para uma arquitetura mais simples, como o padrão **MVC (Model-View-Controller)** tradicional ou **Transaction Script**, onde a lógica reside diretamente no serviço ou controlador, interagindo com objetos de dados simples (DTOs ou Active Records).
 
 
-
-> **Nota:** O gráfico acima ilustra que o DDD só se torna vantajoso (curva de custo x benefício) quando a complexidade do negócio é alta. Em baixa complexidade, ele é custoso.
-
 ---
 
 ### Caso 2: O Modelo de Domínio Anêmico (A Ilusão do DDD)
@@ -50,7 +47,6 @@ Este caso ocorre frequentemente quando equipes tentam usar DDD para quebrar um m
 * **3. Alternativa Adotada:**
     * **Modular Monolith (Monólito Modular):** Reverter os microserviços físicos para um único executável bem estruturado para redescobrir as fronteiras corretas.
     * **Redefinição via Event Storming:** Uso de workshops com especialistas de negócio para redefinir as fronteiras baseadas em fluxos de valor, resultando em duplicação proposital de dados (ex: ter um modelo de 'Cliente' no contexto de Vendas e outro modelo diferente de 'Destinatário' no contexto de Entrega).
-
 
 
 ---
