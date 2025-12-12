@@ -34,4 +34,6 @@ Estes subdomínios adicionam complexidade, mas **não são a motivação central
 *   **Faturamento e Finanças:** Lida com a contabilidade da empresa. Conceitos como dinheiro, taxas de câmbio e contabilidade são **subdomínios genéricos** (aplicáveis a muitos domínios),,.
 *   **Gerenciamento de Tripulação (Crew Management):** Lida com a alocação de pessoal e seus horários de trabalho, sendo um **elemento de apoio**.
 
+![Imagem da linguagem Ubíqua](image/A_2_1_linguagem_ubiqua.png)
+
 A separação em *Contextos Delimitados* permite que cada um desses modelos **evolua de forma independente**,. Por exemplo, as regras de negócio de **Faturamento** (que podem ser complexas em si) não precisam ser misturadas com os conceitos de **Manutenção**, onde o significado do termo "Voo" é completamente diferente,.
