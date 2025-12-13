@@ -1,6 +1,8 @@
 # **ATIVIDADE: APLICANDO DDD**
 
-O Domínio Central (*Core Domain*) de uma plataforma de **Transporte Automotivo** como o Uber (serviço de Transporte de Passageiros com Veículos de Passeio) é focado nos conceitos que representam a **iniciativa estratégica chave** da organização, gerando diferencial competitivo.
+## Serviço de Transporte de Passageiros com Veículos de Passeio
+
+O Domínio Central (*Core Domain*) de uma plataforma de **Transporte Automotivo** como o Uber é focado nos conceitos que representam a **iniciativa estratégica chave** da organização, gerando diferencial competitivo.
 
 Com base nos princípios do *Domain-Driven Design* (DDD) e nos conceitos do domínio de **Transporte Automotivo**, o Domínio Central do Uber envolveria primariamente os seguintes conceitos:
 
@@ -10,7 +12,7 @@ Com base nos princípios do *Domain-Driven Design* (DDD) e nos conceitos do dom�
 
 Esses elementos são considerados centrais porque diferenciam o serviço no mercado e contêm a **lógica de negócios** mais valiosa e especializada.
 
-# **Fluxograma da Plataforma de Transporte (Domínio Central)**
+### **Fluxograma da Plataforma de Transporte (Domínio Central)**
 
 ```mermaid
 flowchart TD
@@ -96,7 +98,6 @@ flowchart TD
 
 Essas funcionalidades de apoio acrescentam complexidade ao sistema, mas o conhecimento envolvido (por exemplo, como traçar uma rota ou processar um cartão de crédito) não é o **conhecimento especializado** que fornece a vantagem estratégica do negócio. A abordagem do DDD é focar o **talento superior** no **Domínio Principal** e evitar gastar o mesmo esforço em subdomínios genéricos.
 
-<<<<<<< HEAD
 > Em resumo, a essência do negócio do Uber estaria na conexão eficiente e inteligente entre usuários e motoristas e na definição de preços, enquanto os serviços de mapeamento, gestão de usuários e pagamentos seriam considerados genéricos ou de suporte. A plataforma utiliza essa segregação, conforme indicado pela referência a "Uber: Introducing Domain-Oriented Microservice Architecture".
 
 Os elementos do Domínio Central de uma empresa de Transporte Automotivo estão intrinsecamente ligados aos domínios em seu entorno, pois dependem dos serviços e dados desses subdomínios de apoio (ou Subdomínios Genéricos) para cumprir suas funções estratégicas,.
@@ -125,6 +126,123 @@ No Design Orientado pelo Domínio (DDD), o esforço estratégico é reservado pa
 >
 > No DDD, o princípio fundamental é que **"o contexto é rei"** (*context is king*), pois o significado de uma palavra ou modelo só pode ser compreendido em um determinado contexto.
 > Se essa ambiguidade linguística não for gerenciada, o software pode se tornar caótico e desorganizado, resultando em uma "Grande Bola de Lama" (*Big Ball of Mud*), um antipadrão onde o sistema se torna difícil de entender, manter e evoluir.
-=======
 Em resumo, a essência do negócio do Uber estaria na conexão eficiente e inteligente entre usuários e motoristas e na definição de preços, enquanto os serviços de mapeamento, gestão de usuários e pagamentos seriam considerados genéricos ou de suporte. A plataforma utiliza essa segregação, conforme indicado pela referência a "Uber: Introducing Domain-Oriented Microservice Architecture".
->>>>>>> 722b77eb327c1027db6b41a8a6ecd65915b0b19e
+
+## Sistema de entrega de comida
+
+O Domínio Principal (**Domínio Central** ou *Core Domain*) de uma empresa como o iFood, no setor de Serviço de Entrega de Comidas, seria focado nas atividades que constituem sua **iniciativa estratégica chave** e que geram seu **diferencial competitivo**.
+
+Com base nos princípios do *Domain-Driven Design* (DDD), o Domínio Central concentra-se em resolver problemas de **alta complexidade** e **volatilidade** (aqueles que exigem inovação contínua). É aqui que o talento superior da equipe deve ser aplicado para encontrar um modelo profundo e flexível.
+
+Seguindo a lógica aplicada ao segmento de Transporte Automotivo (como a Uber), o Domínio Central do iFood envolveria a orquestração de toda a cadeia de valor da entrega, focando nos elementos que a diferenciam da concorrência:
+
+*   **Gestão de Relacionamento e Logística (Entregadores, Clientes e Restaurantes):** O estabelecimento de uma base confiável e classificada de Parceiros (Restaurantes), Entregadores e Usuários.
+*   **Políticas para Cálculo e Otimização de Viagem:** O cálculo e a previsão de custos e, crucialmente, de **tempo de entrega** (ETA) de forma eficiente, otimizando o *matching* (combinação) entre pedidos, restaurantes e entregadores disponíveis. As políticas de cálculo e previsão de custos de viagem são citadas como parte do Domínio Central de empresas de transporte.
+*   **Acompanhamento de Pedidos e Entregadores:** O rastreamento em tempo real dos percursos e do status de cada pedido.
+
+```mermaid
+flowchart TD
+    A([Início])
+
+    B[Gerenciar Parceiros<br/>Restaurantes, Entregadores e Clientes]
+    C[Classificar atores<br/>status, localização e disponibilidade]
+
+    D{Cliente realiza pedido?}
+
+    E[Calcular custo e tempo de entrega<br/>ETA]
+    F[Otimizar matching<br/>pedido, restaurante e entregador]
+
+    G[Confirmar pedido ao cliente]
+
+    H[Acompanhar pedido e entregador<br/>em tempo real]
+    I[Atualizar status<br/>pedido preparado, em rota, entregue]
+
+    J[Finalizar entrega]
+    K([Fim])
+
+    A --> B --> C --> D
+    D -- Não --> K
+    D -- Sim --> E --> F --> G --> H --> I --> J --> K
+```
+
+
+Em contrapartida, subdomínios que são essenciais para a operação, mas não oferecem um diferencial competitivo exclusivo, são considerados **Domínios Genéricos** ou **de Suporte** e, frequentemente, são atendidos por soluções prontas ou terceirizadas.
+
+Para um serviço de entrega de comidas, os seguintes elementos seriam considerados domínios de apoio:
+
+## **cadastro de Endereços/Localização de Origem e Destino**
+
+```mermaid
+flowchart TD
+    A([Início])
+
+    B[Usuário acessa cadastro<br/>de endereços]
+    C[Informar endereço ou<br/>selecionar no mapa]
+
+    D{Endereço válido?}
+
+    E[Geocodificar endereço<br/>latitude e longitude]
+    F[Salvar endereço como<br/>origem ou destino]
+
+    G([Fim])
+
+    A --> B --> C --> D
+    D -- Não --> C
+    D -- Sim --> E --> F --> G
+```
+
+## **Traçar Rotas e Mapas (geralmente integrando-se com serviços de mapeamento existentes)**
+
+```mermaid
+flowchart TD
+    A([Início])
+
+    B[Receber origem e destino]
+    C[Validar coordenadas<br/>ou endereços]
+
+    D{Dados válidos?}
+
+    E[Consultar serviço de mapas<br/>API externa]
+    F[Calcular rota<br/>distância e tempo]
+
+    G{Rota disponível?}
+
+    H[Exibir rota no mapa]
+    I[Sugerir rota alternativa<br/>ou notificar erro]
+
+    J([Fim])
+
+    A --> B --> C --> D
+    D -- Não --> J
+    D -- Sim --> E --> F --> G
+    G -- Sim --> H --> J
+    G -- Não --> I --> J
+```
+
+## **Processar Pagamentos (geralmente resolvido por um sistema genérico)**
+
+```mermaid
+flowchart TD
+    A([Início])
+
+    B[Selecionar forma de pagamento]
+    C[Enviar dados ao gateway<br/>de pagamento]
+
+    D{Pagamento autorizado?}
+
+    E[Confirmar pagamento]
+    F[Registrar transação]
+    G[Notificar sucesso]
+
+    H[Notificar falha<br/>no pagamento]
+
+    I([Fim])
+
+    A --> B --> C --> D
+    D -- Sim --> E --> F --> G --> I
+    D -- Não --> H --> I
+```
+
+O iFood é citado como um exemplo de sucesso na aplicação de uma arquitetura orientada a eventos para modernizar seu *middleware financeiro*, o que sugere que, embora o domínio financeiro não seja o núcleo (Core), ele é importante o suficiente para exigir uma arquitetura robusta.
+
+
