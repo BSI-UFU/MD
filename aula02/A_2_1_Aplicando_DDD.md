@@ -245,4 +245,43 @@ flowchart TD
 
 O iFood é citado como um exemplo de sucesso na aplicação de uma arquitetura orientada a eventos para modernizar seu *middleware financeiro*, o que sugere que, embora o domínio financeiro não seja o núcleo (Core), ele é importante o suficiente para exigir uma arquitetura robusta.
 
+Os elementos do Domínio Central (Core Domain) de um Serviço de Entrega de Comidas, assim como em qualquer arquitetura orientada a domínio, estão necessariamente ligados aos domínios em seu entorno para a execução das funcionalidades essenciais, mas que não são o foco estratégico do negócio,
+O DDD busca que o **Domínio Principal** (que contém o diferencial competitivo) mantenha-se isolado e focado na lógica de negócio mais complexa, delegando o trabalho de suporte a **Subdomínios Genéricos** (como processamento de pagamentos ou mapeamento de rotas), que são vistos como serviços de apoio.
+
+### 1. Base confiável e classificada de Motoristas e Usuários (Domínio Central)
+
+Este elemento central, focado na gestão de relacionamento e logística, requer a colaboração dos seguintes domínios de entorno para a funcionalidade básica:
+
+*   **Processar Pagamentos:** É essencial para lidar com as transações financeiras, seja para cobrar clientes ou para remunerar motoristas e restaurantes.
+*   **Cadastro de Endereços/Localização:** Precisa acessar este domínio para saber onde os usuários e parceiros (motoristas e restaurantes) estão localizados e para onde se dirigem.
+
+### 2. Políticas para Cálculo e Previsão de Custos de Viagem (Domínio Central)
+
+Este é um subdomínio estratégico, responsável pela otimização e precificação do serviço. Ele depende diretamente de:
+
+*   **Traçar Rotas e Mapas:** Requer dados de rotas e distâncias para realizar cálculos precisos de custos e, principalmente, do **Tempo Estimado de Chegada (ETA)**, que é crucial para o serviço.
+*   **Processar Pagamentos:** O resultado do cálculo de custos é o valor que precisa ser repassado ao sistema de pagamentos para efetivar a cobrança.
+
+### 3. Acompanhamento de Percursos (Domínio Central)
+
+O rastreamento em tempo real dos entregadores e do status do pedido se baseia fundamentalmente em informações geográficas:
+
+*   **Traçar Rotas e Mapas:** Utiliza este domínio para visualizar o percurso do entregador e projetar o tempo restante de entrega, fornecendo o *status* do pedido ao cliente.
+*   **Cadastro de Endereços/Localização:** É essencial para receber as coordenadas de GPS em tempo real e compará-las com os pontos de origem e destino.
+
+Em essência, a arquitetura é construída de forma que o **Domínio Principal** (a inteligência de negócio sobre pedidos, parceiros e otimização) é isolado, mas invoca os **Domínios Genéricos** (a infraestrutura de localização, mapas e finanças) para tarefas de suporte.
+
+>A necessidade de gerenciar essa ambiguidade linguística se deve ao princípio fundamental do DDD de que **"o contexto é rei"**, pois o significado de uma palavra ou modelo só pode ser entendido dentro de seu ambiente específico.
+
+>### Resolução de Ambiguidade no DDD
+>
+A presença de um mesmo termo com significados divergentes em diferentes partes de um sistema é comum e, se não for resolvida, pode levar a um sistema caótico e desorganizado, frequentemente referido como uma **"Grande Bola de Lama"**.
+>
+>Para lidar com essa complexidade, o DDD define:
+>
+>1.  **Contextos Delimitados** (*Bounded Contexts*): São limites explícitos que separam reinos distintos de entendimento dentro de um sistema, estabelecendo fronteiras conceituais que ditam interpretações específicas para os termos,,.
+>2.  **Linguagem Ubíqua** (*Ubiquitous Language*): É o vocabulário consistente e compartilhado que se mantém estritamente coerente **apenas dentro** de seu Contexto Delimitado,,.
+>
+>A identificação de um termo com significados diferentes em áreas distintas é, na verdade, uma estratégia crucial para **detectar e desenhar as fronteiras** desses Contextos Delimitados.
+>Ao delimitar os contextos, o DDD atribui significados limitados e válidos para o termo em cada âmbito particular, garantindo que cada modelo seja útil para seu propósito específico.
 
