@@ -63,7 +63,7 @@ flowchart TD
     A([Início])
     B[Receber origem e destino]
     C[Consultar serviço de mapas/roteamento]
-    D[Calcular rota\n• distância\n• tempo estimado]
+    D[Calcular rota\n distância\n tempo estimado]
     E{Rota disponível?}
     F[Exibir rota no mapa]
     G[Notificar erro ou sugerir alternativa]
