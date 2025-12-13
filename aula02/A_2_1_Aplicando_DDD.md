@@ -10,7 +10,7 @@ Com base nos princípios do *Domain-Driven Design* (DDD) e nos conceitos do dom�
 
 Esses elementos são considerados centrais porque diferenciam o serviço no mercado e contêm a **lógica de negócios** mais valiosa e especializada.
 
-# Fluxograma da Plataforma de Transporte (Domínio Central)
+# **Fluxograma da Plataforma de Transporte (Domínio Central)**
 
 ```mermaid
 flowchart TD
@@ -46,8 +46,8 @@ flowchart TD
     B[Usuário acessa cadastro de endereços]
     C[Informar endereço ou localização no mapa]
     D{Endereço válido?}
-    E[Geocodificar endereço\n(lat/long)]
-    F[Salvar endereço\n(origem ou destino)]
+    E[Geocodificar endereço<br/>lat/long]
+    F[Salvar endereço<br/>origem ou destino]
     G([Fim])
 
     A --> B --> C --> D
