@@ -63,7 +63,7 @@ flowchart TD
     A([Início])
     B[Receber origem e destino]
     C[Consultar serviço de mapas/roteamento]
-    D[Calcular rota\n• distância\n• tempo estimado]
+    D[Calcular rota<br/> distância<br/> tempo estimado]
     E{Rota disponível?}
     F[Exibir rota no mapa]
     G[Notificar erro ou sugerir alternativa]
@@ -96,4 +96,31 @@ flowchart TD
 
 Essas funcionalidades de apoio acrescentam complexidade ao sistema, mas o conhecimento envolvido (por exemplo, como traçar uma rota ou processar um cartão de crédito) não é o **conhecimento especializado** que fornece a vantagem estratégica do negócio. A abordagem do DDD é focar o **talento superior** no **Domínio Principal** e evitar gastar o mesmo esforço em subdomínios genéricos.
 
-Em resumo, a essência do negócio do Uber estaria na conexão eficiente e inteligente entre usuários e motoristas e na definição de preços, enquanto os serviços de mapeamento, gestão de usuários e pagamentos seriam considerados genéricos ou de suporte. A plataforma utiliza essa segregação, conforme indicado pela referência a "Uber: Introducing Domain-Oriented Microservice Architecture".
+> Em resumo, a essência do negócio do Uber estaria na conexão eficiente e inteligente entre usuários e motoristas e na definição de preços, enquanto os serviços de mapeamento, gestão de usuários e pagamentos seriam considerados genéricos ou de suporte. A plataforma utiliza essa segregação, conforme indicado pela referência a "Uber: Introducing Domain-Oriented Microservice Architecture".
+
+Os elementos do Domínio Central de uma empresa de Transporte Automotivo estão intrinsecamente ligados aos domínios em seu entorno, pois dependem dos serviços e dados desses subdomínios de apoio (ou Subdomínios Genéricos) para cumprir suas funções estratégicas,.
+
+Os elementos centrais (Domínio Principal), focados nos diferenciais competitivos do negócio, acessam os elementos de apoio para realizar operações essenciais que não são sua motivação principal,.
+
+
+1.  **Base confiável e classificada de Motoristas e Usuários (Domínio Central)**
+    *   Este elemento precisa se ligar ao **Processar Pagamentos** (domínio de apoio) para receber pagamentos de usuários e gerenciar repasses a motoristas.
+    *   Também precisa se ligar a elementos de **Endereços/Localização** (domínio de apoio) para saber onde os usuários e motoristas estão e para onde se destinam.
+
+2.  **Políticas para Cálculo e Previsão de Custos de Viagem (Domínio Central)**
+    *   Este elemento depende da funcionalidade de **Traçar Rotas e Mapas** (domínio de apoio) para calcular a distância percorrida, o tempo estimado e as condições de tráfego, fatores essenciais para a estimativa de custos.
+    *   O resultado da previsão de custos precisa se integrar ao **Processar Pagamentos** (domínio de apoio) para efetivar a cobrança.
+
+3.  **Acompanhamento de Percursos (Domínio Central)**
+    *   Este elemento requer informações contínuas de **Endereços/Localização** (domínio de apoio) para rastrear o veículo em tempo real.
+    *   Também se baseia no **Traçar Rotas e Mapas** (domínio de apoio) para verificar se o veículo está seguindo a rota planejada e para calcular o tempo restante.
+
+No Design Orientado pelo Domínio (DDD), o esforço estratégico é reservado para o **Domínio Central** (Domínio Principal), enquanto os **Subdomínios Genéricos** (como processamento de pagamentos ou mapeamento de rotas) são separados em módulos distintos, que fornecem serviços de suporte ao Core, frequentemente utilizando soluções prontas (off-the-shelf).
+
+> **É possível identificar termos comuns a mais de um domínio com significados distintos**, e este é um desafio central abordado pelo *Domain-Driven Design* (DDD).
+> A essência do DDD reconhece que, em sistemas complexos ou em organizações multifuncionais, surgem ambiguidades linguísticas quando termos idênticos possuem significados divergentes em diferentes partes do negócio.
+>
+> ### O Conceito de Contexto
+>
+> No DDD, o princípio fundamental é que **"o contexto é rei"** (*context is king*), pois o significado de uma palavra ou modelo só pode ser compreendido em um determinado contexto.
+> Se essa ambiguidade linguística não for gerenciada, o software pode se tornar caótico e desorganizado, resultando em uma "Grande Bola de Lama" (*Big Ball of Mud*), um antipadrão onde o sistema se torna difícil de entender, manter e evoluir.
