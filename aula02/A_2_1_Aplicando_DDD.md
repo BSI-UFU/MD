@@ -53,6 +53,7 @@ flowchart TD
     A --> B --> C --> D
     D -- Não --> C
     D -- Sim --> E --> F --> G
+```
 ---
 
 
@@ -72,6 +73,7 @@ flowchart TD
     A --> B --> C --> D --> E
     E -- Sim --> F --> H
     E -- Não --> G --> H
+```
 ---
 
 
@@ -91,6 +93,7 @@ flowchart TD
     A --> B --> C --> D
     D -- Sim --> E --> F --> H
     D -- Não --> G --> H
+```
 ---
 
 Essas funcionalidades de apoio acrescentam complexidade ao sistema, mas o conhecimento envolvido (por exemplo, como traçar uma rota ou processar um cartão de crédito) não é o **conhecimento especializado** que fornece a vantagem estratégica do negócio. A abordagem do DDD é focar o **talento superior** no **Domínio Principal** e evitar gastar o mesmo esforço em subdomínios genéricos.
