@@ -96,6 +96,7 @@ flowchart TD
 
 Essas funcionalidades de apoio acrescentam complexidade ao sistema, mas o conhecimento envolvido (por exemplo, como traçar uma rota ou processar um cartão de crédito) não é o **conhecimento especializado** que fornece a vantagem estratégica do negócio. A abordagem do DDD é focar o **talento superior** no **Domínio Principal** e evitar gastar o mesmo esforço em subdomínios genéricos.
 
+<<<<<<< HEAD
 > Em resumo, a essência do negócio do Uber estaria na conexão eficiente e inteligente entre usuários e motoristas e na definição de preços, enquanto os serviços de mapeamento, gestão de usuários e pagamentos seriam considerados genéricos ou de suporte. A plataforma utiliza essa segregação, conforme indicado pela referência a "Uber: Introducing Domain-Oriented Microservice Architecture".
 
 Os elementos do Domínio Central de uma empresa de Transporte Automotivo estão intrinsecamente ligados aos domínios em seu entorno, pois dependem dos serviços e dados desses subdomínios de apoio (ou Subdomínios Genéricos) para cumprir suas funções estratégicas,.
@@ -124,3 +125,6 @@ No Design Orientado pelo Domínio (DDD), o esforço estratégico é reservado pa
 >
 > No DDD, o princípio fundamental é que **"o contexto é rei"** (*context is king*), pois o significado de uma palavra ou modelo só pode ser compreendido em um determinado contexto.
 > Se essa ambiguidade linguística não for gerenciada, o software pode se tornar caótico e desorganizado, resultando em uma "Grande Bola de Lama" (*Big Ball of Mud*), um antipadrão onde o sistema se torna difícil de entender, manter e evoluir.
+=======
+Em resumo, a essência do negócio do Uber estaria na conexão eficiente e inteligente entre usuários e motoristas e na definição de preços, enquanto os serviços de mapeamento, gestão de usuários e pagamentos seriam considerados genéricos ou de suporte. A plataforma utiliza essa segregação, conforme indicado pela referência a "Uber: Introducing Domain-Oriented Microservice Architecture".
+>>>>>>> 722b77eb327c1027db6b41a8a6ecd65915b0b19e
