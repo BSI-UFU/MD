@@ -30,14 +30,14 @@ flowchart TD
     D -- Sim --> E --> F --> G
     G -- Não --> J
     G -- Sim --> H --> I --> J
----
+```
 
 
-### Subdomínios Genéricos (Apoio)
+## Subdomínios Genéricos (Apoio)
 
 Embora essenciais para a operação da plataforma, existem outros elementos que seriam considerados de **apoio** (Subdomínios Genéricos) e não fariam parte do Domínio Central:
 
-# *   Lidar com **cadastro de Endereços/Localização de Origem e Destino**.
+### **Cadastro de Endereços/Localização de Origem e Destino**
 
 
 ```mermaid
@@ -54,10 +54,9 @@ flowchart TD
     D -- Não --> C
     D -- Sim --> E --> F --> G
 ```
----
 
 
-# *   **Traçar Rotas e Mapas** (serviços de mapeamento e roteamento).
+### **Traçar Rotas e Mapas (serviços de mapeamento e roteamento)**
 
 ```mermaid
 flowchart TD
@@ -74,10 +73,9 @@ flowchart TD
     E -- Sim --> F --> H
     E -- Não --> G --> H
 ```
----
 
 
-# *   **Processar Pagamentos** (integração com sistemas de pagamento e cobrança).
+### **Processar Pagamentos (integração com sistemas de pagamento e cobrança)**
 
 ```mermaid
 flowchart TD
@@ -94,7 +92,7 @@ flowchart TD
     D -- Sim --> E --> F --> H
     D -- Não --> G --> H
 ```
----
+
 
 Essas funcionalidades de apoio acrescentam complexidade ao sistema, mas o conhecimento envolvido (por exemplo, como traçar uma rota ou processar um cartão de crédito) não é o **conhecimento especializado** que fornece a vantagem estratégica do negócio. A abordagem do DDD é focar o **talento superior** no **Domínio Principal** e evitar gastar o mesmo esforço em subdomínios genéricos.
 
