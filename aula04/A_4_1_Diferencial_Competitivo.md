@@ -64,4 +64,3 @@
 
 
 
-Gostaria que eu me aprofundasse em algum desses domínios ou empresas específicas?
