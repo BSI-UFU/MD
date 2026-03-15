@@ -50,7 +50,7 @@ As notas seguem a escala de 0 a 5, considerando o percentual de atividades concl
 
 | Aula | Atividade | Auto-avaliação | Justificativa | Data/Hora completada | Link para o registro da atividade no Git |
 | --- | --- | --- | --- | --- | --- |
-| **A05.1T** | ContextMapper | 5 | Atividade concluída integralmente. | 14/03/2025 17:57 | [Link](aula05/A_05_1_ContextMapper.md) |
+| **A05.1T** | ContextMapper | 5 | Atividade concluída integralmente. Muita difuculdade para instalar o ContexMapper e o PlantUML | 14/03/2025 17:57 | [Link](aula05/A_05_1_ContextMapper.md) |
 | **A05.1T** | Parceria e Núcleo Compartilhado (1) | 5 | Atividade concluída integralmente. | 14/03/2026 18:14 | [Link](aula05/A_05_1_Parceria_e_nucleo_compartilhado_1.md) |
 | **A05.1T** | Parceria e Núcleo Compartilhado (2) | 5 | Atividade concluída integralmente. | 14/03/2026 21:58 | [Link](aula05/A_05_1_Parceria_e_nucleo_compartilhado_2.md) |
 | **A05.1T** | CF e ACL (1) | 5 | Atividade concluída integralmente. | 14/03/2026 21:59 | [Link](aula05/A_05_1_CF_ACL.md) |
