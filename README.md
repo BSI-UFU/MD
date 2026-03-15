@@ -13,11 +13,11 @@ As notas seguem a escala de 0 a 5, considerando o percentual de atividades concl
 
 | Aula | Atividade | Auto-avaliação | Justificativa | Data/Hora completada | Link para o registro da atividade no Git |
 | --- | --- | --- | --- | --- | --- |
-| **A01.1P** | Como funciona a Netflix? (1) | 0 | Atividade não concluída | - | [Link](aula01/A_1_1_Conceito_de_modelos.pdf) |
-| **A01.1P** | Como funciona a Netflix? (2) | 0 | Atividade não concluída | - | [Link](aula01/A_1_2_Exemplos_de_Modelos_Gerais.pdf) |
-| **A01.1P** | Como funciona a Netflix? (3) | 0 | Atividade não concluída | - | [Link](aula01/A_1_2_Como_funciona_a_Netflix_3.pdf) |
-| **A01.1P** | Como funciona a Uber? (1) | 0 | Atividade não concluída | - | [Link](https://www.google.com/search?q=%23) |
-| **A01.1P** | Como funciona a Uber? (2) | 0 | Atividade não concluída | - | [Link](https://www.google.com/search?q=%23) |
+| **A01.1P** | Como funciona a Netflix? (1) | 5 | Atividade concluída integralmente. | 10/11/2025 15:27 | [Link](aula01/A_1_1_Como_funciona_Netflix_e_Uber.md) |
+| **A01.1P** | Como funciona a Netflix? (2) | 5 | Atividade concluída integralmente. | 10/11/2025 15:27 | [Link](aula01/A_1_1_Como_funciona_Netflix_e_Uber.md) |
+| **A01.1P** | Como funciona a Netflix? (3) | 5 | Atividade concluída integralmente. | 10/11/2025 15:27 | [Link](aula01/A_1_1_Como_funciona_Netflix_e_Uber.md) |
+| **A01.1P** | Como funciona a Uber? (1) | 5 | Atividade concluída integralmente. | 10/11/2025 15:27 | [Link](aula01/A_1_1_Como_funciona_Netflix_e_Uber.md) |
+| **A01.1P** | Como funciona a Uber? (2) | 5 | Atividade concluída integralmente. | 10/11/2025 15:27 | [Link](aula01/A_1_1_Como_funciona_Netflix_e_Uber.md) |
 | **A01.1P** | Modelos Mentais (1) | 5 | Atividade concluída integralmente. | 02/12/2025 13:50 | [Link](aula01/A_1_2_Modelos_Mentais.pdf) |
 | **A01.1P** | Modelos Mentais (2) | 5 | Atividade concluída integralmente. | 02/12/2025 13:50 | [Link](aula01/A_1_2_Modelos_Mentais.pdf) |
 | **A01.1T** | Conceito de modelos de Domínio | 5 | Atividade concluída integralmente. | 01/11/2025 15:44 | [Link](aula01/A_1_1_Conceito_de_modelos.pdf) |
@@ -47,13 +47,24 @@ As notas seguem a escala de 0 a 5, considerando o percentual de atividades concl
 | **A05.1T** | ACL, OHS e PL (2) | 5 | Atividade concluída integralmente. | 14/03/2026 22:24 | [Link](aula05/A_05_1_ACL_OHS_PL_2.md) |
 | **A05.1T** | C/S, SW e SK (1) | 5 | Atividade concluída integralmente. | 14/03/2026 22:28 | [Link](aula05/A_05_1_CS_SW_SK_1.md) |
 | **A05.1T** | C/S, SW e SK (2) | 5 | Atividade concluída integralmente. | 14/03/2026 22:40 | [Link](aula05/A_05_1_CS_SW_SK_2.md) |
-| **A06.1T** | Implementando um Value Object | 5 | Atividade concluída integralmente. | 15/03/2026 10:30 | [Link](aula06/A_6_1_Implementando um value Object.md) |
+| **A06.1T** | Implementando um Value Object | 5 | Atividade concluída integralmente. | 15/03/2026 10:30 | [Link](aula06/A_6_1_Implementando_um_value_Object.md) |
 | **A06.1T** | Mais sobre Objetos de Valor (1) | 5 | Atividade concluída integralmente. | 15/03/2026 11:35 | [Link](aula06/A_6_1_Mais_sobre_objetos_de_valor_1.md) |
 | **A06.1T** | Mais sobre Objetos de Valor (2) | 5 | Atividade concluída integralmente. | 15/03/2026 12:50 | [Link](aula06/A_6_1_Mais_sobre_objetos_de_valor_2.md) |
 | **A06.1T** | Implementando uma Entidade | 5 | Atividade concluída integralmente. | 15/03/2026 16:15 | [Link](aula06/A_6_1_Implementando_uma_entidade.md) |
 | **A06.1T** | Mais sobre Entidades | 5 | Atividade concluída integralmente. | 14/03/2026 16:30 | [Link](aula06/A_6_1_Mais_sobre_entidades.md) |
 | **A06.1T** | Implementando um Agregado | 5 | Atividade concluída integralmente. | 14/03/2026 09:50 | [Link](aula06/A_6_1_Implementando_um_Agregado.md) |
 | **A06.1T** | Mais sobre Agregados | 5 | Atividade concluída integralmente. | 15/03/2026 07:20 | [Link](aula06/A_6_1_Mais_sobre_agregados.md) |
+| **A06.2T** | Implementando um Serviço | 5 | Atividade concluída integralmente. | 15/03/2026 12:20 | [Link](aula06/A_6_2_Implementando_um_Servico.md) |
+| **A06.2T** | Mais sobre serviços | 5 | Atividade concluída integralmente. | 15/03/2026 13:33 | [Link](aula06/A_6_2_Mais_sobre_servico.md) |
+| **A06.2T** | Implementando um Evento | 5 | Atividade concluída integralmente. | 15/03/2026 14:12 | [Link](aula06/A_6_2_Implementando_um_Evento.md) |
+| **A06.2T** | Mais sobre Evento | 5 | Atividade concluída integralmente. | 15/03/2026 15:03 | [Link](aula06/A_6_2_Mais_sobre_evento.md) |
+| **A06.2T** | Implementando uma Fábrica | 5 | Atividade concluída integralmente. | 15/03/2026 15:45 | [Link](aula06/A_6_2_Implementando_uma_Fabrica.md) |
+| **A06.2T** | Mais sobre Fábricas | 5 | Atividade concluída integralmente. | 15/03/2026 16:40 | [Link](aula06/A_6_2_Mais_sobre_fabricas.md) |
+| **A06.2T** | Implantando um Repositório | 5 | Atividade concluída integralmente. Muito difícil necessário utilizar LLM | 15/03/2026 17:30 | [Link](aula06/A_6_2_Implementando_um_Repositorio.md) |
+| **A06.2T** | Mais sobre Repositório | 5 | Atividade concluída integralmente. Muito difícil necessário utilizar LLM | 15/03/2026 17:40 | [Link](aula06/A_6_2_Mais_sobre_repositorio.md) |
+| **A07.2T** | Arquitetura (1) | 5 | Atividade concluída integralmente. Foi utilizado LLM | 15/03/2026 17:50 | [Link](aula07/A_7_2_arquitetura_1.md) |
+| **A07.2T** | Arquitetura (2) | 5 | Atividade concluída integralmente. Foi utilizado LLM | 15/03/2026 18:06 | [Link](aula07/A_7_2_arquitetura_2.md) |
+
 
 Observações sobre os critérios de avaliação:
 
