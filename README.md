@@ -65,12 +65,12 @@ As notas seguem a escala de 0 a 5, considerando o percentual de atividades concl
 | **A07.2T** | Arquitetura (1) | 5 | Atividade concluída integralmente. Foi utilizado LLM | 15/03/2026 17:50 | [Link](aula07/A_7_2_arquitetura_1.md) |
 | **A07.2T** | Arquitetura (2) | 5 | Atividade concluída integralmente. Foi utilizado LLM | 15/03/2026 18:06 | [Link](aula07/A_7_2_arquitetura_2.md) |
 
+---
+## **Observações sobre os critérios de avaliação:**
 
-Observações sobre os critérios de avaliação:
-
-* **Nota 5:** 100% das atividades da aula realizadas.
-* **Nota 4:** 80% ou mais atividades da aula realizadas.
-* **Nota 3:** 50% ou mais atividades da aula realizadas.
-* **Nota 2:** 30% ou mais atividades da aula realizadas.
-* **Nota 1:** 10% ou mais atividades da aula realizadas.
-* **Nota 0:** Não realizada ou inferior a 10%.
+> * **Nota 5:** 100% das atividades da aula realizadas.
+> * **Nota 4:** 80% ou mais atividades da aula realizadas.
+> * **Nota 3:** 50% ou mais atividades da aula realizadas.
+> * **Nota 2:** 30% ou mais atividades da aula realizadas.
+> * **Nota 1:** 10% ou mais atividades da aula realizadas.
+> * **Nota 0:** Não realizada ou inferior a 10%.
