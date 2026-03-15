@@ -47,10 +47,13 @@ As notas seguem a escala de 0 a 5, considerando o percentual de atividades concl
 | **A05.1T** | ACL, OHS e PL (2) | 5 | Atividade concluída integralmente. | 14/03/2026 22:24 | [Link](aula05/A_05_1_ACL_OHS_PL_2.md) |
 | **A05.1T** | C/S, SW e SK (1) | 5 | Atividade concluída integralmente. | 14/03/2026 22:28 | [Link](aula05/A_05_1_CS_SW_SK_1.md) |
 | **A05.1T** | C/S, SW e SK (2) | 5 | Atividade concluída integralmente. | 14/03/2026 22:40 | [Link](aula05/A_05_1_CS_SW_SK_2.md) |
-| **A06.1T** | Implementando um Value Object | 5 | Atividade concluída integralmente. | 15/03/2026 | [Link](aula06/) |
-| **A06.1T** | Mais sobre Objetos de Valor (1) | 5 | Atividade concluída integralmente. | 15/03/2026 | [Link](aula06/) |
-
-
+| **A06.1T** | Implementando um Value Object | 5 | Atividade concluída integralmente. | 15/03/2026 14:30 | [Link](aula06/A_6_1_Implementando um value Object.md) |
+| **A06.1T** | Mais sobre Objetos de Valor (1) | 5 | Atividade concluída integralmente. | 15/03/2026 15:35 | [Link](aula06/A_6_1_Mais_sobre_objetos_de_valor_1.md) |
+| **A06.1T** | Mais sobre Objetos de Valor (2) | 5 | Atividade concluída integralmente. | 15/03/2026 15:50 | [Link](aula06/A_6_1_Mais_sobre_objetos_de_valor_2.md) |
+| **A06.1T** | Implementando uma Entidade | 5 | Atividade concluída integralmente. | 15/03/2026 16:15 | [Link](aula06/A_6_1_Implementando_uma_entidade.md) |
+| **A06.1T** | Mais sobre Entidades | 5 | Atividade concluída integralmente. | 15/03/2026 16:30 | [Link](aula06/A_6_1_Mais_sobre_entidades.md) |
+| **A06.1T** | Implementando um Agregado | 5 | Atividade concluída integralmente. | 15/03/2026 16:50 | [Link](aula06/A_6_1_Implementando_um_Agregado.md) |
+| **A06.1T** | Mais sobre Agregados | 5 | Atividade concluída integralmente. | 15/03/2026 17:20 | [Link](aula06/A_6_1_Mais_sobre_agregados.md) |
 
 Observações sobre os critérios de avaliação:
 
