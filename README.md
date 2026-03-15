@@ -20,12 +20,12 @@ As notas seguem a escala de 0 a 5, considerando o percentual de atividades concl
 | **A01.1P** | Como funciona a Uber? (2) | 5 | Atividade concluída integralmente. | 10/11/2025 15:27 | [Link](aula01/A_1_1_Como_funciona_Netflix_e_Uber.md) |
 | **A01.1P** | Modelos Mentais (1) | 5 | Atividade concluída integralmente. | 02/12/2025 13:50 | [Link](aula01/A_1_2_Modelos_Mentais.pdf) |
 | **A01.1P** | Modelos Mentais (2) | 5 | Atividade concluída integralmente. | 02/12/2025 13:50 | [Link](aula01/A_1_2_Modelos_Mentais.pdf) |
-| **A01.1T** | Conceitos básicos - 1  | 5 | Atividade concluída integralmente. | 18/11/2025 22:14 | [Link](aula01/A_1_1_Conceitos_basicos.pdf) |
-| **A01.1T** | Conceitos básicos - 2  | 5 | Atividade concluída integralmente. | 18/11/2025 22:14 | [Link](aula01/A_1_1_Conceitos_basicos.pdf) |
 | **A01.1T** | Conceito de modelos de Domínio | 5 | Atividade concluída integralmente. | 01/11/2025 15:44 | [Link](aula01/A_1_1_Conceito_de_modelos.pdf) |
 | **A01.1T** | Exemplos de modelos gerais | 5 | Atividade concluída integralmente. | 18/11/2025 22:14 | [Link](aula01/A_1_2_Exemplos_de_Modelos_Gerais.pdf) |
 | **A01.1T** | Representando modelos computacionais | 5 | Atividade concluída integralmente. | 10/11/2025 16:44 | [Link](aula01/A_1_1_Representando_modelos_computacionais.pdf) |
 | **A01.1T** | Por que modelar? | 5 | Atividade concluída integralmente. | 11/11/2025 15:45 | [Link](aula01/A_1_1_Por_que_Modelar.pdf) |
+| **A01.1T** | Conceitos Basicos (1) | 5 | Atividade concluída integralmente. | 18/11/2025 22:14 | [Link](aula01/A_1_1_Conceitos_basicos.pdf) |
+| **A01.1T** | Conceitos Basicos (2) | 5 | Atividade concluída integralmente. | 18/11/2025 22:14 | [Link](aula01/A_1_1_Conceitos_basicos.pdf) |
 ---
 
 | Aula | Atividade | Auto-avaliação | Justificativa | Data/Hora completada | Link para o registro da atividade no Git |
