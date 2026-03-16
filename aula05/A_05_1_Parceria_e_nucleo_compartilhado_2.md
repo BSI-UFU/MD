@@ -57,7 +57,7 @@ BoundedContext SharedEcommerceKernel {
 }
 
 
-![Pedido, Logística e Clientes](image/Parceria_Nucleo_compartilhado_2_ContextMap.png)
+![Pedido, Logística e Clientes](image/Parceria_Nucleo_compartilhado_2_ContextMap.jpg)
 
 > **Diagrma UML**
 
